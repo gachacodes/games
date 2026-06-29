@@ -1,6 +1,6 @@
-// ==========================================
-// SPRACHEN & ÜBERSETZUNGEN (DICTIONARY)
-// ==========================================
+
+// DE/EN Translation
+
 const translations = {
     de: {
         title: "Verfügbare Codes",
@@ -34,9 +34,9 @@ const translations = {
     }
 };
 
-// ==========================================
-// AUTOMATISCHE SPRACHERKENNUNG (BROWSER)
-// ==========================================
+
+// Spracherkennung vom Browser
+
 function getAutoLanguage() {
     const manualLang = localStorage.getItem('lang');
     if (manualLang) {
@@ -49,9 +49,9 @@ function getAutoLanguage() {
 
 let currentLang = getAutoLanguage();
 
-// ==========================================
+
 // DARK MODE LOGIK
-// ==========================================
+
 const themeToggleBtn = document.getElementById('theme-toggle');
 const htmlElement = document.documentElement;
 
