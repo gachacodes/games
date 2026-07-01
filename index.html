@@ -1,26 +1,30 @@
+
 <!DOCTYPE html>
 <html lang="de" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="title-title">Aktive Promo Codes</title>
-    <link rel="icon" type="image" href="../images/icons/NTE/NTE.png">
+    <title id="title-title">Spiele</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
     <div class="header-container">
-        <h1 id="main-title">Verfügbare Codes</h1>
+        <h1 id="main-title">Games</h1>
         <div class="controls-container">
-            <button onclick="gotoLink(this)" value="../" id="games-page" class="btn-control" >Spiele</button>
             <button id="theme-toggle" class="btn-control">Dark Mode</button>
             <button id="lang-toggle" class="btn-control">EN</button>
+
+            
+            <!--<button onclick="gotoLink(this)" value="../" id="games-page" class="btn-control" >Spiele</button>-->
         </div>
+        <br><br>
+        <div class="controls-container">
+            <button onclick="gotoLink(this)" value="./NTE/" id="nte-page" class="btn-control" >Neverness To Everness</button>
+            <button onclick="gotoLink(this)" value="./wuwa/" id="wuwa-page" class="btn-control" >Wuthering Waves</button>
+        </div>
+
     </div>
-    
-    <div id="code-container"></div>
-    
-    <div id="toast">Code kopiert!</div>
 
     <script src="index.js"></script>
 </body>
