@@ -44,6 +44,10 @@
     opacity: 0.8;
 }
 
+.btn-img{
+    height: 11px;
+}
+
 .controls-container {
     display: flex;
     gap: 15px;
