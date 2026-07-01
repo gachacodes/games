@@ -17,8 +17,7 @@ const translations = {
         minsAbbr: "Min ",
         secsAbbr: "Sek",
         gamesBtn: "Spiele"
-
-       },
+    },
     en: {
         title: "Available Codes",
         themeDark: "Dark Mode",
@@ -86,8 +85,8 @@ const langToggleBtn = document.getElementById('lang-toggle');
 function applyLanguageUI() {
     langToggleBtn.textContent = translations[currentLang].langBtn;
     document.getElementById('main-title').textContent = translations[currentLang].title;
-    document.getElementById('games-page').textContent = translations[currentLang].gamesBtn;
     document.getElementById('title-title').textContent = translations[currentLang].title;
+    document.getElementById('games-page').textContent = translations[currentLang].gamesBtn;
     
     if (htmlElement.getAttribute('data-theme') === 'dark') {
         themeToggleBtn.textContent = translations[currentLang].themeLight;
@@ -123,70 +122,23 @@ function copyToClipboard(code) {
 
 const promoCodes = [
     { 
-        code: "SHINKU0708", 
+        code: "WUTHERINGGIFT", 
         rewards: [
-            { type: "image", value: "../images/games/NTE/annulith.png", textKey: "x100" },
-            { type: "image", value: "../images/games/NTE/light_dye.png", textKey: "x5" },
-            { type: "image", value: "../images/games/NTE/rising_hunter_guide.png", textKey: "x5" },
-            { type: "image", value: "../images/games/NTE/beetle_coin.png", textKey: "x4000" }
-        ],
-        expires: 1782748740 
-    },
-     { 
-        code: "999NIGHTS", 
-        rewards: [
-            { type: "image", value: "../images/games/NTE/annulith.png", textKey: "x100" },
-            { type: "image", value: "../images/games/NTE/colorless_dye.png", textKey: "x5" },
-            { type: "image", value: "../images/games/NTE/senior_hunter_guide.png", textKey: "x5" },
-            { type: "image", value: "../images/games/NTE/beetle_coin.png", textKey: "x6000" }
-        ],
-        expires: 1782748740 
-    },
-     { 
-        code: "IROI0729", 
-        rewards: [
-            { type: "image", value: "../images/games/NTE/annulith.png", textKey: "x100" },
-            { type: "image", value: "../images/games/NTE/colorless_dye.png", textKey: "x2" },
-            { type: "image", value: "../images/games/NTE/elite_hunter_guide.png", textKey: "x2" },
-            { type: "image", value: "../images/games/NTE/beetle_coin.png", textKey: "x12000" }
-        ],
-        expires: 1782748740 
-    },
-    { 
-        code: "NTENENE", 
-        rewards: [
-            { type: "image", value: "../images/games/NTE/fons.png", textKey: "x10000" },
-            { type: "image", value: "../images/games/NTE/clicky_fries.png", textKey: "x10" },
-            { type: "image", value: "../images/games/NTE/dynamik.png", textKey: "x10" }
+            { type: "image", value: "../images/games/wuwa/astrite.png", textKey: "x50" },
+            { type: "image", value: "../images/games/wuwa/premium_resonance_potion.png", textKey: "x2" },
+            { type: "image", value: "../images/games/wuwa/medium_revival_inhaler.png", textKey: "x2" },
+            { type: "image", value: "../images/games/wuwa/medium_energy_bag.png", textKey: "x2" },
+            { type: "image", value: "../images/games/wuwa/shell_creds.png", textKey: "x2" }
         ],
         expires: null 
     },
     { 
-        code: "NTEFUNGAME", 
+        code: "WUWA4PC", 
         rewards: [
-            { type: "image", value: "../images/games/NTE/fons.png", textKey: "x10000" }
-        ],
-        expires: null 
-    },
-    { 
-        code: "NTEWINFONS", 
-        rewards: [
-            { type: "image", value: "../images/games/NTE/fons.png", textKey: "x20000" }
-        ],
-        expires: null 
-    },
-    { 
-        code: "NTEFREE", 
-        rewards: [
-            { type: "image", value: "../images/games/NTE/fons.png", textKey: "x30000" }
-        ],
-        expires: null 
-    },
-    { 
-        code: "NTEvtuber200", 
-        rewards: [
-            { type: "image", value: "../images/games/NTE/beetle_coin.png", textKey: "x10000" },
-            { type: "image", value: "../images/games/NTE/fons.png", textKey: "x10000" }
+            { textKey: "PC EXCLUSIVE" },
+            { textKey: "" },
+            { textKey: "" },
+            { type: "image", value: "../images/games/wuwa/astrite.png", textKey: "x50" }
         ],
         expires: null 
     }
@@ -285,6 +237,6 @@ function gotoLink(link){
 };
 
 
+
 renderCodes();
 setInterval(renderCodes, 1000);
-
