@@ -123,6 +123,13 @@ function copyToClipboard(code) {
 
 const promoCodes = [
     { 
+        code: "NTEFUNGAME", 
+        rewards: [
+            {  textKey: "Avatar Frame" }
+        ],
+        expires: 1787068740 
+    },
+    { 
         code: "SHINKU0708", 
         rewards: [
             { type: "image", value: "../images/games/NTE/annulith.png", textKey: "x100" },
