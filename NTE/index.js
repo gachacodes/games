@@ -123,7 +123,7 @@ function copyToClipboard(code) {
 
 const promoCodes = [
     { 
-        code: "NTEFUNGAME", 
+        code: "WELCOMETONTE", 
         rewards: [
             {  textKey: "Avatar Frame" }
         ],
