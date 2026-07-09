@@ -119,7 +119,7 @@ function copyToClipboard(code) {
 }
 
 
-// Codes
+// Codes 
 
 const promoCodes = [
     { 
@@ -128,6 +128,13 @@ const promoCodes = [
             {  textKey: "Avatar Frame" }
         ],
         expires: 1787068740 
+    },
+    { 
+        code: "DRAGONGIRL", 
+        rewards: [
+            {  textKey: "Avatar Frame" }
+        ],
+        expires: 1785254340 
     },
     { 
         code: "SHINKU0708", 
