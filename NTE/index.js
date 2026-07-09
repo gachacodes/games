@@ -132,7 +132,8 @@ const promoCodes = [
     { 
         code: "DRAGONGIRL", 
         rewards: [
-            {  textKey: "Avatar Frame" }
+            { type: "image", value: "../images/games/NTE/annulith.png", textKey: "x30" },
+            { type: "image", value: "../images/games/NTE/fons.png", textKey: "x20000" }
         ],
         expires: 1785254340 
     },
