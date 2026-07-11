@@ -1,0 +1,32 @@
+`SHINKU0708` - <:Annulith:1496424845146193950>  x100, <:LightDye:1496425315227013193> x5, <:RisingHunterGuide:1496425858737635389> x5, <:BeetleCoin:1498663966023487648> x4000
+`999NIGHTS` - <:Annulith:1496424845146193950>  x100, <:ColorlessDye:1496425364791230605> x5, <:SeniorHunterGuide:1496425899321589811> x5, <:BeetleCoin:1498663966023487648> x6000
+`IROI0729` - <:Annulith:1496424845146193950>  x100, <:ColorlessDye:1496425364791230605> x2, <:EliteHunterGuide:1496425949372354620> x2, <:BeetleCoin:1498663966023487648> x12000
+
+Available until <t:1782748740:f>  
+
+-# How to Redeem:
+> In-game Menu (ESC) -> (...) -> Redeem Code
+
+{ 
+        code: "BLITZ_SALE", 
+        rewards: [
+            { type: "icon", value: "⚡", textKey: "instantDiscount" },
+            { type: "image", value: "https://cdn-icons-png.flaticon.com/512/9334/9334573.png", textKey: "newCustomer" }
+        ],
+        expires: Math.floor(Date.now() / 1000) + 30 
+    }
+
+const rewardTranslations = {
+    summerDiscount: { de: "20% Rabatt", en: "20% Discount" },
+    fastShipping: { de: "Blitzschneller Versand", en: "Lightning-fast Shipping" },
+    freeGift: { de: "Gratis Geschenk", en: "Free Gift" },
+    premiumShipping: { de: "Kostenloser Premium-Versand", en: "Free Premium Shipping" },
+    vipStatus: { de: "VIP Status", en: "VIP Status" },
+    extraPoints: { de: "500 Extra-Punkte", en: "500 Extra Points" },
+    instantDiscount: { de: "5€ Sofort-Rabatt", en: "5€ Instant Discount" },
+    newCustomer: { de: "Gültig für Neukunden", en: "Valid for New Customers" }
+};
+
+
+
+    <!--<link rel="icon" type="image" href="../images/icons/"> -->
