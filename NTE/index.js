@@ -16,8 +16,9 @@ const translations = {
         hoursAbbr: "Std ",
         minsAbbr: "Min ",
         secsAbbr: "Sek",
-        gamesBtn: "Spiele"
-
+        gamesBtn: "Spiele",
+        unknownDate: "Enddatum unbekannt",
+        dmgcalcBtn: "Damage Calculator"
        },
     en: {
         title: "Available Codes",
@@ -33,7 +34,9 @@ const translations = {
         hoursAbbr: "h ",
         minsAbbr: "m ",
         secsAbbr: "s",
-        gamesBtn: "Games"
+        gamesBtn: "Games",
+        unknownDate: "Unknown End Date",
+        dmgcalcBtn: "Damagecalculator"
     }
 };
 
@@ -87,6 +90,7 @@ function applyLanguageUI() {
     langToggleBtn.textContent = translations[currentLang].langBtn;
     document.getElementById('main-title').textContent = translations[currentLang].title;
     document.getElementById('games-page').textContent = translations[currentLang].gamesBtn;
+    document.getElementById('dmg-calc-page').textContent = translations[currentLang].dmgcalcBtn;
     document.getElementById('title-title').textContent = translations[currentLang].title;
     
     if (htmlElement.getAttribute('data-theme') === 'dark') {
@@ -122,6 +126,22 @@ function copyToClipboard(code) {
 // Codes 
 
 const promoCodes = [
+    { 
+        code: "NTEKokushi", 
+        rewards: [
+            { type: "image", value: "../images/games/NTE/fons.png", textKey: "x30000" },
+            { type: "image", value: "../images/games/NTE/beetle_coin.png", textKey: "x30000" }
+        ],
+        expires: "unknown",
+    },
+    { 
+        code: "NTEMusou", 
+        rewards: [
+            { type: "image", value: "../images/games/NTE/fons.png", textKey: "x10000" },
+            { type: "image", value: "../images/games/NTE/beetle_coin.png", textKey: "x10000" }
+        ],
+        expires: "unknown",
+    },
     { 
         code: "WELCOMETONTE", 
         rewards: [
@@ -218,6 +238,12 @@ const rewardTranslations = {
     test8: { de: "", en: "" }
 };
 
+function numberToImages(num) {
+    //zahl in bild
+    return String(num).split('').map(digit => {
+        return `<img src="../images/games/NTE/numbers/${digit}.png" class="digit-img" alt="${digit}">`;
+    }).join('');
+}
 
 // DISPLAY LOGIC
 function renderCodes() {
@@ -226,7 +252,11 @@ function renderCodes() {
     const container = document.getElementById('code-container');
     const currentUnixTime = Math.floor(Date.now() / 1000);
 
-    const activeCodes = promoCodes.filter(item => item.expires === null || item.expires > currentUnixTime);
+    const activeCodes = promoCodes.filter(item => 
+        item.expires === null || 
+        item.expires === 'unknown' || 
+        item.expires > currentUnixTime
+    );
 
     if (activeCodes.length === 0) {
         container.innerHTML = `<div class="no-codes">${translations[currentLang].noCodes}</div>`;
@@ -239,6 +269,8 @@ function renderCodes() {
         
         if (item.expires === null) {
             expiryText = `<span class='permanent-text'>${translations[currentLang].permanent}</span>`;
+        }else if (item.expires === "unknown") {
+            expiryText = `<span class='unkown-text'>${translations[currentLang].unknownDate}</span>`;
         } else {
             const timeLeft = item.expires - currentUnixTime;
             
@@ -249,6 +281,18 @@ function renderCodes() {
             
             const localeStr = (currentLang === 'en') ? 'en-US' : 'de-DE';
             const dateStr = new Date(item.expires * 1000).toLocaleString(localeStr); 
+
+           /* const countdownStr = `
+                ${days > 0 ? numberToImages(days) + translations[currentLang].daysAbbr : ''}
+                ${numberToImages(hours)}${translations[currentLang].hoursAbbr}
+                ${numberToImages(minutes)}${translations[currentLang].minsAbbr}
+                ${numberToImages(seconds)}${translations[currentLang].secsAbbr}
+            `;
+
+            expiryText = `
+                <span>${translations[currentLang].validUntil}: ${dateStr}</span>
+                <span class="countdown">${translations[currentLang].countdownPrefix}: ${countdownStr}</span>
+            `;*/
             
             const countdownStr = `${days > 0 ? days + translations[currentLang].daysAbbr : ''}${hours}${translations[currentLang].hoursAbbr}${minutes}${translations[currentLang].minsAbbr}${seconds}${translations[currentLang].secsAbbr}`;
 
