@@ -253,9 +253,7 @@ function renderCodes() {
     const currentUnixTime = Math.floor(Date.now() / 1000);
 
     const activeCodes = promoCodes.filter(item => 
-        item.expires === null || 
-        item.expires === 'unknown' || 
-        item.expires > currentUnixTime
+        item.expires === null || item.expires === "unknown" || item.expires > currentUnixTime
     );
 
     if (activeCodes.length === 0) {
