@@ -122,6 +122,13 @@ function copyToClipboard(code) {
 
 const promoCodes = [
     { 
+        code: "F5F4D3B2A2", 
+        rewards: [
+            {  textKey: "Escape from Duckow Livery" },
+        ],
+        expires: 1787104800 
+    },
+    { 
         code: "WUTHERINGGIFT", 
         rewards: [
             { type: "image", value: "../images/games/wuwa/astrite.png", textKey: "x50" },
