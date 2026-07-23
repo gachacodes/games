@@ -306,6 +306,51 @@ const minti_text = "Where is Mint? Nr. ";
                 hoehe: 6,
                 bagel_id: 12881847
             },
+            {
+                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_35.png",
+                frage: minti_text+"35"+" - Medium",
+                x: 24, 
+                y: 35, 
+                breite: 2, 
+                hoehe: 6,
+                bagel_id: 13145033
+            },
+            {
+                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_36.png",
+                frage: minti_text+"36"+" - Easy",
+                x: 28, 
+                y: 35, 
+                breite: 4, 
+                hoehe: 6,
+                bagel_id: 13145101
+            },
+            {
+                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_37.png",
+                frage: minti_text+"37"+" - Medium",
+                x: 1, 
+                y: 37, 
+                breite: 2, 
+                hoehe: 6,
+                bagel_id: 13145201
+            },
+            {
+                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_38.png",
+                frage: minti_text+"38"+" - Medium",
+                x: 70, 
+                y: 42, 
+                breite: 2, 
+                hoehe: 6,
+                bagel_id: 13145268
+            },
+            {
+                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_39.png",
+                frage: minti_text+"39"+" - Medium",
+                x: 33.5, 
+                y: 39, 
+                breite: 2, 
+                hoehe: 6,
+                bagel_id: 13145338
+            },
         ];
 
         
