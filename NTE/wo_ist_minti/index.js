@@ -349,7 +349,7 @@ const minti_text = "Wo ist Minti? Nr. ";
                 y: 39, 
                 breite: 2, 
                 hoehe: 6,
-                bagel_id: 13145033
+                bagel_id: 13145338
             },
         ];
 
