@@ -1,7 +1,7 @@
 const minti_text = "Where is Mint? Nr. ";
         const bilderDaten = [
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_1.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_1.avif",
                 frage: minti_text+"1"+" - Easy",
                 x: 74, 
                 y: 44, 
@@ -10,7 +10,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12212639
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_2.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_2.avif",
                 frage: minti_text+"2"+" - Easy",
                 x: 66, 
                 y: 34, 
@@ -19,7 +19,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12212802
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_3.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_3.avif",
                 frage: minti_text+"3"+" - Medium",
                 x: 14, 
                 y: 61, 
@@ -28,7 +28,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12213042
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_4.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_4.avif",
                 frage: minti_text+"4"+" - Easy",
                 x: 86, 
                 y: 34, 
@@ -37,7 +37,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12213180
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_5.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_5.avif",
                 frage: minti_text+"5"+" - Easy",
                 x: 88, 
                 y: 35, 
@@ -46,7 +46,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12213319
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_6.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_6.avif",
                 frage: minti_text+"6"+" - Medium",
                 x: 66, 
                 y: 39, 
@@ -55,7 +55,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12359315
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_7.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_7.avif",
                 frage: minti_text+"7"+" - Easy",
                 x: 5, 
                 y: 86, 
@@ -64,7 +64,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12440944
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_8.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_8.avif",
                 frage: minti_text+"8"+" - Medium",
                 x: 58, 
                 y: 36, 
@@ -73,7 +73,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12441040
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_9.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_9.avif",
                 frage: minti_text+"9"+" - Hard",
                 x: 71, 
                 y: 67, 
@@ -82,7 +82,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12441157
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_10.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_10.avif",
                 frage: minti_text+"10"+" - Hard",
                 x: 57, 
                 y: 49, 
@@ -91,7 +91,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12441252
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_11.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_11.avif",
                 frage: minti_text+"11"+" - Easy",
                 x: 36, 
                 y: 35, 
@@ -100,7 +100,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12500231
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_12.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_12.avif",
                 frage: minti_text+"12"+" - Hard",
                 x: 50, 
                 y: 37, 
@@ -109,7 +109,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12500399
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_13.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_13.avif",
                 frage: minti_text+"13"+" - Medium",
                 x: 76, 
                 y: 28, 
@@ -118,7 +118,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12500564
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_14.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_14.avif",
                 frage: minti_text+"14"+" - Hard",
                 x: 69, 
                 y: 18, 
@@ -127,7 +127,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12500863
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_15.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_15.avif",
                 frage: minti_text+"15"+" - Hard",
                 x: 79, 
                 y: 28, 
@@ -136,7 +136,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12501114
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_16.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_16.avif",
                 frage: minti_text+"16"+" - Hard",
                 x: 61, 
                 y: 55, 
@@ -145,7 +145,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12566274
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_17.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_17.avif",
                 frage: minti_text+"17"+" - Hard",
                 x: 12, 
                 y: 22, 
@@ -154,7 +154,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12566566
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_18.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_18.avif",
                 frage: minti_text+"18"+" - Hard",
                 x: 73, 
                 y: 50, 
@@ -163,7 +163,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12566689
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_19.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_19.avif",
                 frage: minti_text+"19"+" - Hard",
                 x: 21, 
                 y: 65, 
@@ -172,7 +172,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12566858
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_20.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_20.avif",
                 frage: minti_text+"20"+" - Hard",
                 x: 41, 
                 y: 35, 
@@ -181,7 +181,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12566940
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_21.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_21.avif",
                 frage: minti_text+"21"+" - Medium",
                 x: 32, 
                 y: 43, 
@@ -190,7 +190,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12688512
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_22.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_22.avif",
                 frage: minti_text+"22"+" - Medium",
                 x: 79, 
                 y: 41, 
@@ -199,7 +199,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12688586
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_23.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_23.avif",
                 frage: minti_text+"23"+" - Medium",
                 x: 40, 
                 y: 34, 
@@ -208,7 +208,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12688647
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_24.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_24.avif",
                 frage: minti_text+"24"+" - Hard",
                 x: 72, 
                 y: 40, 
@@ -217,7 +217,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12688716
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_25.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_25.avif",
                 frage: minti_text+"25"+" - Hard",
                 x: 97.5, 
                 y: 25, 
@@ -226,7 +226,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12688812
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_26.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_26.avif",
                 frage: minti_text+"26"+" - Medium",
                 x: 42, 
                 y: 33, 
@@ -235,7 +235,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12748027
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_27.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_27.avif",
                 frage: minti_text+"27"+" - Medium",
                 x: 25, 
                 y: 42, 
@@ -244,7 +244,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12748213
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_28.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_28.avif",
                 frage: minti_text+"28"+" - Medium",
                 x: 74, 
                 y: 37, 
@@ -253,7 +253,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12748519
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_29.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_29.avif",
                 frage: minti_text+"29"+" - Medium",
                 x: 5.5, 
                 y: 51, 
@@ -262,7 +262,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12748877
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_30.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_30.avif",
                 frage: minti_text+"30"+" - Hard",
                 x: 72, 
                 y: 32, 
@@ -271,7 +271,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12881363
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_31.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_31.avif",
                 frage: minti_text+"31"+" - Medium",
                 x: 23, 
                 y: 52, 
@@ -280,7 +280,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12881481
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_32.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_32.avif",
                 frage: minti_text+"32"+" - Hard",
                 x: 97.5, 
                 y: 35, 
@@ -289,7 +289,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12881564
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_33.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_33.avif",
                 frage: minti_text+"33"+" - Medium",
                 x: 2, 
                 y: 37.5, 
@@ -298,7 +298,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12881731
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_34.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_34.avif",
                 frage: minti_text+"34"+" - Easy",
                 x: 0, 
                 y: 53, 
@@ -307,7 +307,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 12881847
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_35.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_35.avif",
                 frage: minti_text+"35"+" - Medium",
                 x: 24, 
                 y: 35, 
@@ -316,7 +316,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 13145033
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_36.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_36.avif",
                 frage: minti_text+"36"+" - Easy",
                 x: 28, 
                 y: 35, 
@@ -325,7 +325,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 13145101
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_37.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_37.avif",
                 frage: minti_text+"37"+" - Medium",
                 x: 1, 
                 y: 37, 
@@ -334,7 +334,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 13145201
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_38.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_38.avif",
                 frage: minti_text+"38"+" - Medium",
                 x: 70, 
                 y: 42, 
@@ -343,7 +343,7 @@ const minti_text = "Where is Mint? Nr. ";
                 bagel_id: 13145268
             },
             {
-                src: "../../images/games/NTE/wo_ist_minti/wo_ist_minti_39.png",
+                src: "../../images/games/NTE/wo_ist_minti_avif/wo_ist_minti_39.avif",
                 frage: minti_text+"39"+" - Medium",
                 x: 33.5, 
                 y: 39, 
