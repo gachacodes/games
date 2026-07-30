@@ -127,6 +127,13 @@ function copyToClipboard(code) {
 
 const promoCodes = [
     { 
+        code: "COMEBACK", 
+        rewards: [
+            {textKey: "x 1 Standard Cube" },
+        ],
+        expires: "unknown",
+    },
+    { 
         code: "NTEKokushi", 
         rewards: [
             { type: "image", value: "../images/games/NTE/fons.png", textKey: "x30000" },
