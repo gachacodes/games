@@ -122,6 +122,33 @@ function copyToClipboard(code) {
 
 const promoCodes = [
     { 
+        code: "HEARTOFSWORD", 
+        rewards: [
+            { type: "image", value: "../images/games/wuwa/astrite.png", textKey: "x100" },
+            { type: "image", value: "../images/games/wuwa/advanced_resonance_potion.png", textKey: "x3" },
+            { type: "image", value: "../images/games/wuwa/medium_revival_inhaler.png", textKey: "x2" },
+        ],
+        expires: 1786291200 
+    },
+    { 
+        code: "ETERNALFLAME", 
+        rewards: [
+            { type: "image", value: "../images/games/wuwa/astrite.png", textKey: "x100" },
+            { type: "image", value: "../images/games/wuwa/advanced_energy_core.png", textKey: "x3" },
+            { type: "image", value: "../images/games/wuwa/medium_nutrient_block.png", textKey: "x2" },
+        ],
+        expires: 1786291200
+    },
+    { 
+        code: "THEANSWER", 
+        rewards: [
+            { type: "image", value: "../images/games/wuwa/astrite.png", textKey: "x100" },
+            { type: "image", value: "../images/games/wuwa/advanced_enclosure_tank.png", textKey: "x3" },
+            { type: "image", value: "../images/games/wuwa/shell_creds.png", textKey: "x20000" }
+        ],
+        expires: 1786291200 
+    },
+    { 
         code: "F5F4D3B2A2", 
         rewards: [
             {  textKey: "Escape from Duckow Livery" },
@@ -135,7 +162,7 @@ const promoCodes = [
             { type: "image", value: "../images/games/wuwa/premium_resonance_potion.png", textKey: "x2" },
             { type: "image", value: "../images/games/wuwa/medium_revival_inhaler.png", textKey: "x2" },
             { type: "image", value: "../images/games/wuwa/medium_energy_bag.png", textKey: "x2" },
-            { type: "image", value: "../images/games/wuwa/shell_creds.png", textKey: "x2" }
+            { type: "image", value: "../images/games/wuwa/shell_creds.png", textKey: "x1000" }
         ],
         expires: null 
     },
@@ -145,7 +172,8 @@ const promoCodes = [
             { textKey: "PC EXCLUSIVE" },
             { textKey: "" },
             { textKey: "" },
-            { type: "image", value: "../images/games/wuwa/astrite.png", textKey: "x50" }
+            { type: "image", value: "../images/games/wuwa/astrite.png", textKey: "x50" },
+            { type: "image", value: "../images/games/wuwa/shell_creds.png", textKey: "x20000" }
         ],
         expires: null 
     }
