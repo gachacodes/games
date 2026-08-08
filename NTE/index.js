@@ -127,11 +127,43 @@ function copyToClipboard(code) {
 
 const promoCodes = [
     { 
-        code: "COMEBACK", 
+        code: "ZANKOU0819", 
         rewards: [
-            {textKey: "x 1 Standard Cube" },
+            { type: "image", value: "../images/games/NTE/annulith.png", textKey: "x30" },
+            { type: "image", value: "../images/games/NTE/fons.png", textKey: "x50000" },
+            { type: "image", value: "../images/games/NTE/beetle_coin.png", textKey: "x30000" }
         ],
         expires: "unknown",
+    },
+    { 
+        code: "FOGDENGAME", 
+        rewards: [
+            { type: "image", value: "../images/games/NTE/annulith.png", textKey: "x100" },
+            { type: "image", value: "../images/games/NTE/light_dye.png", textKey: "x5" },
+            { type: "image", value: "../images/games/NTE/rising_hunter_guide.png", textKey: "x5" },
+            { type: "image", value: "../images/games/NTE/beetle_coin.png", textKey: "x4000" }
+        ],
+        expires: 1786377540,
+    },
+    { 
+        code: "EYEOFDELUSION", 
+        rewards: [
+            { type: "image", value: "../images/games/NTE/annulith.png", textKey: "x100" },
+            { type: "image", value: "../images/games/NTE/colorless_dye.png", textKey: "x5" },
+            { type: "image", value: "../images/games/NTE/senior_hunter_guide.png", textKey: "x5" },
+            { type: "image", value: "../images/games/NTE/beetle_coin.png", textKey: "x6000" }
+        ],
+        expires: 1786377540,
+    },
+    { 
+        code: "SUMMERTIME", 
+        rewards: [
+            { type: "image", value: "../images/games/NTE/annulith.png", textKey: "x100" },
+            { type: "image", value: "../images/games/NTE/colorless_dye.png", textKey: "x2" },
+            { type: "image", value: "../images/games/NTE/elite_hunter_guide.png", textKey: "x2" },
+            { type: "image", value: "../images/games/NTE/beetle_coin.png", textKey: "x12000" }
+        ],
+        expires: 1786377540,
     },
     { 
         code: "NTEKokushi", 
