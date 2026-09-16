@@ -127,6 +127,36 @@ function copyToClipboard(code) {
 
 const promoCodes = [
     { 
+        code: "WITCHHOUSE", 
+        rewards: [
+            { type: "image", value: "../images/games/NTE/annulith.png", textKey: "x100" },
+            { type: "image", value: "../images/games/NTE/light_dye.png", textKey: "x5" },
+            { type: "image", value: "../images/games/NTE/rising_hunter_guide.png", textKey: "x5" },
+            { type: "image", value: "../images/games/NTE/beetle_coin.png", textKey: "x4000" }
+        ],
+        expires: "1789919940",
+    },
+    { 
+        code: "THEWHOOTS", 
+        rewards: [
+            { type: "image", value: "../images/games/NTE/annulith.png", textKey: "x100" },
+            { type: "image", value: "../images/games/NTE/colorless_dye.png", textKey: "x5" },
+            { type: "image", value: "../images/games/NTE/senior_hunter_guide.png", textKey: "x5" },
+            { type: "image", value: "../images/games/NTE/beetle_coin.png", textKey: "x6000" }
+        ],
+        expires: "1789919940",
+    },
+    { 
+        code: "PUKALANDGOGO", 
+        rewards: [
+            { type: "image", value: "../images/games/NTE/annulith.png", textKey: "x100" },
+            { type: "image", value: "../images/games/NTE/colorless_dye.png", textKey: "x2" },
+            { type: "image", value: "../images/games/NTE/elite_hunter_guide.png", textKey: "x2" },
+            { type: "image", value: "../images/games/NTE/beetle_coin.png", textKey: "x12000" }
+        ],
+        expires: "1789919940",
+    },
+    { 
         code: "ZANKOU0819", 
         rewards: [
             { type: "image", value: "../images/games/NTE/annulith.png", textKey: "x30" },
