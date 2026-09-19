@@ -122,6 +122,33 @@ function copyToClipboard(code) {
 
 const promoCodes = [
     { 
+        code: "FALLINGSANCTUM", 
+        rewards: [
+            { type: "image", value: "../images/games/wuwa/astrite.png", textKey: "x100" },
+            { type: "image", value: "../images/games/wuwa/premium_resonance_potion.png", textKey: "x2" },
+            { type: "image", value: "../images/games/wuwa/medium_revival_inhaler.png", textKey: "x2" },
+        ],
+        expires: 1790006399 
+    },
+    { 
+        code: "FINDSENTINEL", 
+        rewards: [
+            { type: "image", value: "../images/games/wuwa/astrite.png", textKey: "x100" },
+            { type: "image", value: "../images/games/wuwa/advanced_energy_core.png", textKey: "x3" },
+            { type: "image", value: "../images/games/wuwa/medium_nutrient_block.png", textKey: "x2" },
+        ],
+        expires: 1790006399 
+    },
+    { 
+        code: "WAKINGMOON", 
+        rewards: [
+            { type: "image", value: "../images/games/wuwa/astrite.png", textKey: "x100" },
+            { type: "image", value: "../images/games/wuwa/advanced_enclosure_tank.png", textKey: "x3" },
+            { type: "image", value: "../images/games/wuwa/shell_creds.png", textKey: "x20000" }
+        ],
+        expires: 1790006399 
+    },
+    { 
         code: "HEARTOFSWORD", 
         rewards: [
             { type: "image", value: "../images/games/wuwa/astrite.png", textKey: "x100" },
