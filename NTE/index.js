@@ -126,6 +126,15 @@ function copyToClipboard(code) {
 // Codes 
 
 const promoCodes = [
+{ 
+        code: "BLACKBIRDINNTE", 
+        rewards: [
+            { textKey: Heterogenous Unit "x100" },
+{ type: "image", value: "../images/games/NTE/fons.png", textKey: "x10000" },
+            { type: "image", value: "../images/games/NTE/beetle_coin.png", textKey: "30000" }
+        ],
+        expires: "1792511999",
+    },
     { 
         code: "WITCHHOUSE", 
         rewards: [
