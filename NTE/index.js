@@ -129,7 +129,7 @@ const promoCodes = [
 { 
         code: "BLACKBIRDINNTE", 
         rewards: [
-            { textKey: Heterogenous Unit "x100" },
+            { textKey: "Heterogenous Unit x100" },
 { type: "image", value: "../images/games/NTE/fons.png", textKey: "x10000" },
             { type: "image", value: "../images/games/NTE/beetle_coin.png", textKey: "30000" }
         ],
