@@ -126,11 +126,27 @@ function copyToClipboard(code) {
 // Codes 
 
 const promoCodes = [
-{ 
+    { 
+        code: "BLACKBIRDHERE", 
+        rewards: [
+            {  textKey: "Avatar Frame" }
+        ],
+        expires: "unknown", 
+    },
+    { 
+        code: "WONDERLOGGIFT", 
+        rewards: [
+            { type: "image", value: "../images/games/NTE/annulith.png", textKey: "x30" },
+            { type: "image", value: "../images/games/NTE/senior_hunter_guide.png", textKey: "x3" },
+            { type: "image", value: "../images/games/NTE/fons.png", textKey: "x20000" }
+        ],
+        expires: "1792533540",
+    },
+    { 
         code: "BLACKBIRDINNTE", 
         rewards: [
-            { type: "image", value: "../images/games/NTE/",textKey: "Heterogenous Unit x100" },
-{ type: "image", value: "../images/games/NTE/fons.png", textKey: "x10000" },
+            { type: "image", value: "../images/games/NTE/heterogenous_unit.png",textKey: "Heterogenous Unit x100" },
+            { type: "image", value: "../images/games/NTE/fons.png", textKey: "x10000" },
             { type: "image", value: "../images/games/NTE/beetle_coin.png", textKey: "30000" }
         ],
         expires: "1792511999",
@@ -422,4 +438,3 @@ function gotoLink(link){
 
 renderCodes();
 setInterval(renderCodes, 1000);
-
